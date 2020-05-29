@@ -54,5 +54,13 @@
       voluptates aperiam obcaecati sunt?
     </p>
     <script src="assets/js/frame.js"></script>
+    <script>
+      window.onload = function (e) {
+        window.setInterval(publishHeight, 300)
+      }
+      window.onresize = function (e) {
+        window.setInterval(publishHeight, 300)
+      }
+    </script>
   </body>
 </html>
