@@ -30,7 +30,7 @@ function getBodyHeight () {
   let height, scrollHeight, offsetHeight;
   if(document.height){
     height = document.height;
-  } else if (doxument.body) {
+  } else if (document.body) {
     if(document.body.scrollHeight){
       scrollHeight = document.body.scrollHeight;
       height = scrollHeight;
